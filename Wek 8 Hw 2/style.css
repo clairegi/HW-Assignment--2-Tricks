@@ -1,0 +1,84 @@
+
+* {
+	/*show this as a fix for two column layout*/
+	box-sizing: border-box;
+}
+
+body {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvetica, sans-serif;
+	background: linear-gradient(PaleTurquoise, lightpink);
+	color: Gray;
+
+}
+
+.div1 {
+
+	 background-color: AntiqueWhite;
+	 text-align: center;
+	 line-height: 150px;
+	 color: Grey;
+	 width: 150px;
+	 height: 150px;
+	 margin-right: 50px;
+	 box-shadow: 10px 10px 5px #888888;
+	 display: inline-block;
+	 border-radius: 10%;
+}
+
+.div2 {
+
+	 background-color: Aqua;
+	 text-align: center;;
+	 line-height: 150px;
+	 color: Grey;
+	 width: 150px;
+	 height: 150px;
+	 margin-right: 50px;
+	 box-shadow: 10px 10px 5px #888888;
+	 display: inline-block;
+	 border-radius: 20%;
+}
+
+.div3 {
+
+	 background-color: Aquamarine;
+	 text-align: center;
+	 line-height: 150px;
+	 color: Grey;
+	 width: 150px;
+	 height: 150px;
+	 box-shadow: 10px 10px 5px #888888;
+	 margin-right: 50px;
+	 border-radius: 30%;
+	 display: inline-block;
+}
+
+.div4 {
+
+	 background-color: Azure;
+	 text-align: center;
+	 line-height: 150px;
+	 color: Grey;
+	 width: 150px;
+	 box-shadow: 10px 10px 5px #888888;
+	 height: 150px;
+	 border-radius: 40%;
+	 display: inline-block;
+}
+
+.div5 {
+
+	 background-color: PaleTurquoise;
+
+	 text-align: center;
+	 line-height: 220px;
+	 color: red;
+	 box-shadow: 10px 10px 5px #888888;
+	 width: 150px;
+	 height: 150px;
+	 border-radius: 50%;
+	 display: inline-block;
+}
